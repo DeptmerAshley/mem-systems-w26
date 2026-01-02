@@ -24,4 +24,4 @@ As you may have surmised from the above list, it turns out one of the most chall
 
 ## Fun Stuff
 - James Mickens: [My Love Letter To Computer Science Is Very Short And I Also Forgot To Mail It](https://www.youtube.com/watch?v=4vd2rCBjHp8)
-- Mickens again: [The Night Watch](https://scholar.harvard.edu/files/mickens/files/thenightwatch.pdf)
+- Mickens again: [The Night Watch](https://www.usenix.org/system/files/1311_05-08_mickens.pdf)
