@@ -6,7 +6,7 @@ details = "S. Keshav. SIGCOMM CCR"
 [lee-tiered]
 name = "Tiered-Latency DRAM: A Low Latency and Low Cost DRAM Architecture (Sections 1 & 2)"
 link = "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6522354&tag=1"
-details = "Donghyuk Lee, Yoongu Kim, Vivek Seshadri, Jamie Liu, Lavanya Subramanian, and Onur Mutlu. HPCA '13"
+details = "Lee et al., HPCA '13"
 
 [liu-raidr]
 name = "RAIDR: Retention-Aware Intelligent DRAM Refresh (Sections 1 & 2)"
@@ -17,6 +17,11 @@ details = "Jamie Liu, Ben Jaiyen, Richard Veras, and Onur Mutlu. ISCA '12"
 name = "A Case for Exploiting Subarray-level Parallelism (SALP) in DRAM (Sections 1 & 2)"
 link = "https://ieeexplore.ieee.org/document/6237032"
 details = "Yoongu Kim, Vivek Seshadri, Donghyuk Lee, Jamie Liu, and Onur Mutlu. ISCA '12"
+
+[piranha]
+name = "Piranha: A Scalable Architecture Based on Single-Chip Multiprocessing"
+link = "https://barroso.org/publications/isca00.pdf"
+details = "Barroso et al., ISCA 2000"
 
 [mosaic]
 name = "Mosaic Pages: Big TLB Reach with Small Pages"
@@ -125,10 +130,82 @@ details = "Yang et al. FAST '20"
 [wsp]
 name = "Whole-System Persistence"
 link = "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/paper-updated.pdf"
-details = "Dushyanth Narayanan and Orion Hodson. ASPLOS '12"
+details = "Narayanan and Hodson, ASPLOS '12"
 
 [simple]
 name = "SimplePIM: A Software Framework for Productive and Efficient Processing-in-Memory"
 link = "https://people.inf.ethz.ch/omutlu/pub/SimplePIM_pact23.pdf"
 details = "Chen et al. PACT '23"
+
+[drepper]
+name = "What Every Programmer Should Know About Memory"
+link = "https://people.freebsd.org/~lstewart/articles/cpumemory.pdf"
+details = "Ulrich Drepper, 2007"
+
+[hbm-errors]
+name = "Removing Obstacles before Breaking Through the Memory Wall: A Close Look at HBM Errors in the Field"
+link = "https://www.usenix.org/system/files/atc24-wu-ronglong.pdf"
+details = "Wu et al., USENIX ATC '24"
+
+[mc2]
+name = "(MC)² Lazy MemCopy at the Memory Controller"
+link= "https://dl.acm.org/doi/10.1109/ISCA59077.2024.00084"
+details = "Kamath et al., ISCA '24"
+
+[rrip] 
+name = "High Performance Cache Replacement Using Re-reference Interval Prediction (RRIP)"
+link = "https://dl.acm.org/doi/10.1145/1815961.1815971"
+details = "Jaleel et al., ISCA '10"
+
+[rowhammer]
+name = "Flipping bits in memory without accessing them: an experimental study of DRAM disturbance errors"
+link = "https://dl.acm.org/doi/10.1145/2678373.2665726"
+details = "Kim et al., ISCA '14"
+
+[mix-tlb]
+name = "Efficient Address Translation for Architectures with Multiple Page Sizes"
+link = "https://dl.acm.org/doi/pdf/10.1145/3093336.3037704"
+details = "Cox and Bhattacharjee, ASPLOS '17"
+
+[tmo]
+name = "TMO: transparent memory offloading in datacenters"
+link = "https://dl.acm.org/doi/10.1145/3503222.3507731"
+details = "Weiner et al. ASPLOS '22"
+
+[memento] 
+name = "Memento: Architectural Support for Ephemeral Memory Management in Serverless Environments"
+link = "https://www.cs.cmu.edu/~dskarlat/publications/memento_micro23.pdf"
+details = "Wang et al., MICRO '23"
+
+[pond]
+name = "Pond: CXL-Based Memory Pooling Systems for Cloud Platforms"
+link = "https://dl.acm.org/doi/10.1145/3575693.3578835"
+details = "Li et al., ASPLOS '23"
+
+[tpp]
+name = "TPP: Transparent Page Placement for CXL-Enabled Tiered-Memory"
+link = "https://dl.acm.org/doi/10.1145/3582016.3582063"
+details = "Maruf et al., ASPLOS '23"
+
+[cxlfork]
+name = "CXLfork: Fast Remote Fork over CXL Fabrics"
+link = "https://tianyin.github.io/pub/cxlfork.pdf"
+details = "Alverti et al., ASPLOS '25"
+
+[vllm] 
+name = "Efficient Memory Management for Large Language Model Serving with PagedAttention"
+link = "https://dl.acm.org/doi/10.1145/3600006.3613165"
+details = "Kwon et al., SOSP '23"
+
+[vattention] 
+name = "vAttention: Dynamic Memory Management for Serving LLMs without PagedAttention"
+link = "https://dl.acm.org/doi/10.1145/3669940.3707256"
+details = "Prabhu et al., ASPLOS '25"
+
+[cent]
+name = "PIM Is All You Need: A CXL-Enabled GPU-Free System for Large Language Model Inference"
+link = "https://dl.acm.org/doi/pdf/10.1145/3676641.3716267"
+details = "Gu et al., ASPLOS '25"
+
+
 

@@ -2,7 +2,7 @@
 
 [[classes]]
 lesson = 1
-title = "TBD"
+#title = "Course Intro"
 leader = "Kyle"
 readings = ["reading"]
 
@@ -10,103 +10,108 @@ readings = ["reading"]
 
 [[classes]]
 lesson = 2
-title = "TBD"
+#title = "Overview of the Memory System"
 leader = "Kyle"
+readings = ["drepper"]
 
 
-# Virtual Memory Basics 
+# Memory Internals
 
+# Basics: DRAM/SRAM/MC
 [[classes]]
 lesson = 3
-title = "TBD"
+title = "Hardware Internals - SRAM and DRAM"
 leader = "TBD"
-readings = []
+readings = ["lee-tiered"]
 
 [[classes]]
 lesson = 4
-title = "TBD"
+title = "Memory Controllers and HBM"
 leader = "TBD"
-readings = []
+readings = ["mc2"]
 
 [[classes]]
 lesson = 5
-title = "TBD"
+title = "Caches"
 leader = "TBD"
-readings = []
+readings = ["rrip"]
 
 [[classes]]
 lesson = 6
-title = "TBD"
+title = "Shared Memory & Cache Coherence"
 leader = "TBD"
-readings = []
+readings = ["piranha"]
 
 [[classes]]
 lesson = 7
-title = "TBD"
+title = "NUMA"
 leader = "TBD"
-readings = []
+readings = ["nuksm"]
 
 [[classes]]
 lesson = 8
-title = "TBD"
+title = "Reliability & Security"
 leader = "TBD"
-readings = []
+readings = ["rowhammer"]
 
 [[classes]]
 lesson = 9
-title = "TBD"
+title = "Virtual Memory"
 leader = "TBD"
-readings = []
+readings = ["mosaic"]
 
 [[classes]]
 lesson = 10
-title = "TBD"
+title = "Persistent Memory"
 leader = "TBD"
-readings = []
+readings = ["wsp"]
 
 [[classes]]
 lesson = 11
-title = "TBD"
+title = "NVM"
 leader = "TBD"
-readings = []
+readings = ["empirical"]
 
-[[classes]]
-lesson = 12
-title = "TBD"
-leader = "TBD"
-readings = []
 
 [[classes]]
 lesson = 13
-title = "TBD"
+title = "Serverless"
 leader = "TBD"
-readings = []
+readings = ["memento"]
 
 [[classes]]
 lesson = 14
-title = "TBD"
+title = "Memory Disaggregation"
 leader = "TBD"
-readings = []
+readings = ["disagg"]
 
 [[classes]]
 lesson = 15
-title = "TBD"
+title = "Memory Pooling & Disaggregation"
 leader = "TBD"
-readings = []
+readings = ["pond"]
 
 [[classes]]
 lesson = 16
-title = "TBD"
+title = "Memory Tiering"
 leader = "TBD"
-readings = []
+readings = ["tpp"]
+
+[[classes]]
+lesson = 16
+title = "CXL"
+leader = "TBD"
+readings = ["cxlfork"]
 
 [[classes]]
 lesson = 17
-title = "TBD"
+title = "Memory for AI I"
 leader = "TBD"
-readings = []
+readings = ["vllm"]
+# vattention also a candidate here
 
 [[classes]]
 lesson = 18
+title = "Memory for AI & NDP"
 leader = "TBD"
-readings = []
+readings = ["cent"]

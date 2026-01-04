@@ -6,6 +6,10 @@ hide = false
 
 # Extra Reading
 
+## Other Memory Papers
+- Onur Mutlu: [Research Problems and Opportunities in Memory Systems](https://pdl.cmu.edu/PDL-FTP/NVM/memory-systems-research_superfri14.pdf)
+- [TMO](https://www.cs.cmu.edu/~dskarlat/publications/tmo_asplos22.pdf), Meta's memory offloading infrastructure. 
+
 ## Miscellaneous Research Advice
 Here are some extra readings containing priceless advice on conducting systems research (and research more broadly)
 from people that are much smarter than me:
