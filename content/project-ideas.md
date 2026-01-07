@@ -77,6 +77,8 @@ You can of course build on any paper we look at in class (or other papers!). Her
 - Develop a CXL emulator (on a NUMA system) and implement a user-space daemon to migrate pages between the local and "far" node
 - Compare memory compression (e.g., Linux zswap) to memory tiering (i.e. allocating pages on a remote CXL node)
 - Develop a custom tiered memory allocator for the Linux kernel
+- Run memory performance experiments on the Cerebras waferscale engine. For example,
+you might approximate a memory hierarchy using the core-local memories. 
 - Add a processing-in-memory (PIM) ISA extension to a RISC-V core that triggers in-memory computation (ala [Tesseract](https://users.ece.cmu.edu/~omutlu/pub/tesseract-pim-architecture-for-graph-processing_isca15.pdf)
 - Apply disaggregated memory (CXL, far memory, etc.) to Genome mapping algorithms (or other scientific workloads) 
 - Implement a CXL controller on an FPGA (doing experiments on CXL access delay)
