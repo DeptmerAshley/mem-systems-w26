@@ -78,7 +78,7 @@ You can either work individually or in groups with up to 2-3 people.
 
 #### Proposal 
 
-You must first submit a project proposal. This is due on Friday, January 17 (at the end of week two). I
+You must first submit a project proposal. This is due on Friday, January 16 (at the end of week two). I
 will post a list of project ideas soon, though you are free to come up with your own ideas. [Open a GitHub issue][proposal]
 answering these questions:
 
