@@ -49,16 +49,21 @@ Later access:
 
 # Software  Function and Changes:
 (MC)² made some changes to the software side too. It introduced a clean interface ( a wrapper) for lazy copying  “memcpy(dest, src, size)”. Programs use it arbitrary sizes and alignments. The paper states the hardware mechanism is most efficient when it can track is 64 bytes chunks or cacheline sized. The software therefore provides the wrapper that preservers norma copy  but internally chooses between 
+
 * normal copy for small or awkward pieces
 *	Lazy copying fir aligned bulk
 Steps for the new instruction :
 *	Do normal copy if too small (smaller than 64 bytes)
 *	If dest is not cacheline aligned, compute how many bytes required to make dest aligned , normal copy exactly those bytes, advance src and dest and reduce size accordingly. The remaining region can be handled in cacheline chunks
+
 *	Do the MCLAZY of the bulk region, these are multiples of cacheline sizes and less than a page
 *	If something is left , do normal copy.
 *	Finally do a fence such that the lazy copy maintains proper order of  memory operations
+
 Example , suppose the program calls memcpy_lazy(dest=…03, src=…00, size=200) and the cacheline is 64 B.
+
 The wrapper will:
+
 *	Copy  61 bytes normally (to align dest)
 *	Use MCLAZY for the next 128 bytes 
 *	Copy the last 11 bytes normally
