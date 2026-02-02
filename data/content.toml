@@ -64,7 +64,7 @@ readings = ["rowhammer"]
 [[classes]]
 lesson = 9
 title = "Virtual Memory"
-leader = "Lab 3: TBD"
+leader = "Lab 3: Donovan Burk"
 readings = ["mosaic"]
 
 [[classes]]
