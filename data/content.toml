@@ -68,6 +68,7 @@ lesson = 9
 title = "Virtual Memory"
 leader = "Lab 3: Donovan Burk"
 readings = ["mosaic"]
+paper_slides = "https://canvas.oregonstate.edu/courses/2028992/files/116386161?module_item_id=26512253"
 
 [[classes]]
 lesson = 10
