@@ -1,23 +1,17 @@
 +++
-
 title = "Flipping Bits in Memory Without Accessing Them"
-
-\[extra]
+[extra]
 bio = """ """
-
-\[\[extra.authors]]
-name = "William Davis(Leader Presentor)"
-\[\[extra.authors]]
+[[extra.authors]]
+name = "William Davis (Leader Presentor)"
+[[extra.authors]]
 name = "Carlos Alvarado-Lopez (Presentor)"
-\[\[extra.authors]]
+[[extra.authors]]
 name = "James Tappert (Scribe)"
-\[\[extra.authors]]
-name = " Paul Suvrojyoti (Blogger)"
-\[\[extra.authors]]
+[[extra.authors]]
+name = "Paul Suvrojyoti (Blogger)"
+[[extra.authors]]
 name = "Kabir Vidyarthi(Blogger)"
-
-date = 2026-02-12
-
 +++
 
 
