@@ -63,6 +63,7 @@ lesson = 8
 leader = "Lab 2: Liam & Carlos"
 readings = ["rowhammer"]
 paper_slides = "https://canvas.oregonstate.edu/courses/2028992/files/116341638?module_item_id=26507200"
+blog_link = "../blog/flippingbitsinmemorywithoutaccessingthem"
 
 [[classes]]
 lesson = 9
