@@ -40,4 +40,4 @@ The design relies on front yard-first placement and backyard fallback to find em
 Mosaic TLB shows promising results for improving on a core performance bottleneck, the TLB. The authors validate their design with thorough benchmarks that highlight the potential of this technology. However, this is still a long way away from being implemented on an actual product. Mosaic TLB would require changes to the operating system’s memory allocator. The paper does not touch on more complex memory access, such as NUMA or shared memory regions. These could cause complications to the virtual address encoding. Overall, the paper demonstrated a 
 
 # Refrences
-Grozakan, K. (n.d.). Mosaic pages: Big tlb reach with small pages. http://www.cs.yale.edu/homes/abhishek/ksriram-asplos23.pdf 
+Gosakan, Krishnan, Han, Jaehyun, Kuszmaul, William, Mubarek, Ibrahim, Mukherjee, Nirjhar et al. 2023. "Mosaic pages: Big tlb reach with small pages". http://www.cs.yale.edu/homes/abhishek/ksriram-asplos23.pdf 
