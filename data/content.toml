@@ -127,7 +127,7 @@ readings = ["cxlfork"]
 [[classes]]
 lesson = 17
 title = "Memory for AI I"
-leader = "Lab 3: TBD"
+leader = "Lab 3: Max Leibowitz and Dustin"
 readings = ["vllm"]
 # vattention also a candidate here
 
