@@ -98,7 +98,14 @@ The authors evaluated CXLfork on a dual-socket 64-core Intel Sapphire Rapids ser
 
 
 ## Class Discussion
-!!! Need Scribe Notes !!!
+* **For the tiering what was the reason that only BFS and Bert were so different as shown in the slide 55?**
+  * Bert is a large language model and so uses a different type of structure while working through things.
+* **What was the latency for the serverless function instance?**
+  * It was somewhere in the ms timeframe.
+* **For the Sensitivity Analysis to CXL Latency, What was the reason behind those graphs?**
+  * Read the section of Sensitivity to CXL Latency: bottom right of page 11 of the paper. 
+* **Why there were a ton of extra slides post the ending from the authors?"**
+  * Likely was made that way for the common questions they expected to get.
 
 ## Conclusion
 
