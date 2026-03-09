@@ -87,10 +87,12 @@ The authors evaluated CXLfork on a dual-socket 64-core Intel Sapphire Rapids ser
 **Latency:**
 -  CXLfork was found to be 2.26x faster than CRIU-CXL and 1.40x faster than Mitosis-CXL on average, and only 14% slower than a standard local fork.
 - CXLfork execution is 11x faster than a typical "cold" start.
+  
     ![Latency Results](./exec-time.png)
     
 **Memory Efficiency:**
 - Local memory consumption was reduced by 87% compared to CRIU and 61% compared to Mitosis.
+  
     ![Memory Results](./mem-consumption.png)
 
 
