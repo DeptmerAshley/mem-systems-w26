@@ -1,5 +1,5 @@
 +++
-title = "Piranha: A Scalable Architecture Based on Single-Chip Multiprocessing"
+title = "How modern AI workloads are bottlenecked by GPU hardware"
 [extra]
 [[extra.authors]]
 name = "Darren Mai (Blogger, Data Collector, Presenter, Slide Creator)"
