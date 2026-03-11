@@ -1,7 +1,7 @@
 +++
 title = "Final Report: Using MemGaze Traces of HPC Workloads for CPU p-state Optimization"
 [extra]
-latex = "true"
+latex = true
 [[extra.authors]]
 name = "Soren Emmons"
 [[extra.authors]]
@@ -115,3 +115,5 @@ Ultimately the research was a success. Albeit there were some large hiccups, we 
 ## Conclusion
 
 This project explored how analyzing memory behavior can help identify opportunities for improving power efficiency in HPC workloads. By instrumenting LULESH with MemGaze, it was possible to collect detailed memory traces and visualize how these programs interact with the memory subsystem. The resulting analysis suggests that memory access patterns play a significant role in workload performance. Understanding these patterns is important for designing systems that balance performance and energy efficiency. If workloads spend a large portion of time waiting on memory accesses, lowering CPU frequency may reduce power usage without significantly impacting runtime. Future work could expand this analysis by directly measuring energy consumption under different CPU P-states and evaluating a larger set of HPC workloads.
+
+[Presentation Slides](https://docs.google.com/presentation/d/19AodcMlRuCYOZu_ZAdwgUyVt_uhqtWqNLmOspCjGDqo/edit?usp=sharing)
