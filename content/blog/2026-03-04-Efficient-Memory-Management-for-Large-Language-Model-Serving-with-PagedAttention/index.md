@@ -3,7 +3,7 @@ title = "Efficient Memory Management for Large Language Model Serving with Paged
 [extra]
 bio = """ """
 [[extra.authors]]
-name = " Max Leibowitz (Presentor / Blogger)"
+name = "Max Leibowitz (Presentor / Blogger)"
 [[extra.authors]]
 name = "Dustin (Presentor)"
 [[extra.authors]]
