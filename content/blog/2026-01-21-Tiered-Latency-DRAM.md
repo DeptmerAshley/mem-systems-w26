@@ -12,6 +12,8 @@ name = "Soren Emmons (scribe)"
 name = "Brian Castellon Rosales (scribe)"
 [[extra.authors]]
 name = "Jared Ho (blogger)"
+[[extra.authors]]
+name = "Nolan Cutler (blogger)"
 +++
 
 # Introduction
@@ -80,3 +82,4 @@ The core contribution of this work is splitting a standard long bitline into two
 * Gemini 3 Pro was used for drafting an outline template for this blogpost as well as give clearer definitions for the keywords
 
 * Generative AI can be useful tools for tasks such as summarizing or drafting, however, they may give innacurate information confidently and should always have generated information validated
+

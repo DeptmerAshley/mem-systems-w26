@@ -2,6 +2,7 @@
 title = "Final Report: Using MemGaze Traces of HPC Workloads for CPU p-state Optimization"
 [extra]
 latex = true
+
 [[extra.authors]]
 name = "Soren Emmons"
 [[extra.authors]]
@@ -66,23 +67,23 @@ Through quantitative analysis of the MemGaze trace, we see that the profiler cap
 This was gathered using these formulas in a Python script:
 <center>To find the most active region, we sort the paths by weight</center>
 
-\[ w(p_1) > w(p_2) > ... > w(p_n) \]
+$ w(p_1) > w(p_2) > ... > w(p_n) $
 
 <center>To define our hot phase, we find the top 20% of active paths where k is the number of paths in the top percentile, k = 0.20 * N:</center>
 
-\[W_{hot} = \sum_{i=1}^{k} w(p_i) \]
+$W_{hot} = \sum_{i=1}^{k} w(p_i)$
 
 <center> We can then express this is a percentage of total memory constrained within the hot phase: </center>
 
-\[ \text{Hot Phase Traffic} = (\frac{W_{hot}}{W_{total}}) * 100 \]
+$ \text{Hot Phase Traffic} = (\frac{W_{hot}}{W_{total}}) * 100 $
 
 <center> We can calculate the cold phase by finding the remaining paths </center>
 
-\[ W_{cold} = W_{total} - W_{hot} \]
+$ W_{cold} = W_{total} - W_{hot} $
 
 <center> Then, the percentage of memory traffic in the cold is calculated </center>
 
-\[ \text{Cold Phase Traffic} = (\frac{W_{cold}}{W_{total}}) * 100 \]
+$ \text{Cold Phase Traffic} = (\frac{W_{cold}}{W_{total}}) * 100 $
 
 This data shows that for 80% of these execution paths represent the setup, teardown, and transitional period where the CPU is primarily idle waiting for data to load from memory. This split of “cold” and “hot” regions represents the compute-heavy inner loop and memory-bound outer branches. This validates the premise of MemPower because 80% of the execution paths are “cold”, which represent bottlenecks in memory retrieval rather than processor speed. Maintaining the CPU at its maximum p-state during these “cold” regions is a waste of power consumption. Based on this data, LULESH would be a perfect candidate for MemPower due to the wasted power consumption we see while in the “cold” regions, as MemPower can take advantage of this region and lower the p-state, which would, in theory, greatly reduce the power consumption of running this simulation.
 

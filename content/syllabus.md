@@ -122,8 +122,8 @@ Your writeup should answer these questions in detail:
 You are welcome to optionally include a video to go along with your blog post.
 
 To submit your report, open a pull request in [the course’s GitHub repository][gh] to add your post to the blog.
-In your PR description, please include “closes #N” where N is the issue number for your proposal.
-The repository's README relevant has instructions.
+In your PR description, please include “closes #N” where N is the issue number for your proposal. The repository's README relevant has instructions.
+Be sure to include a URL to your code/research artifacts/plots etc. in your report, and also be sure to specify who in your team worked on what in the project. 
 
 [schedule]: @/schedule.md
 [syl]: https://canvas.oregonstate.edu/courses/2028992/assignments/syllabus
