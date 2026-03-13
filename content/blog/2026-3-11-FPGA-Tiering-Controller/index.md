@@ -56,6 +56,8 @@ One of the biggest challenges was implementing a algorithm that makes sense in t
 Although learning how AXI worked was difficult for a first time looking at it. Once I understood how it worked, it was easier to replicate signals where they needed to be moved to. I wasn’t expecting working within a new system to go as smoothly as it did. I expected hidden snags to pop up from edge cases I didn’t know about, but that rarely happened. The Tiering controller worked as expected and did not producee any suprising results once it was fully functioning. The Tiering controller was slower than the baseline but not by an unreasonable amount considering how much slower the slow memory was.
 
 # Project Deliverables
+https://github.com/MemoryTiering/tmc
+
 
 ## Generative AI disclosure
 Google Gemini 3 pro was used in developing the achitechture.
